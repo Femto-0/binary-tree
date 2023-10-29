@@ -23,7 +23,9 @@ public class Node {
             }
         }
     }
-
+/*
+method to check if the tree contains a certain number or not
+ */
     public boolean contains(int num) {
         if (data == num) {  //if the number i am looking for matched the value at the node
             return true;
